@@ -1,0 +1,15 @@
+# Archivo de configuración básico para Dependabot
+version: 2
+updates:
+  # Configuración para paquetes de Node.js
+  - package-ecosystem: "npm"
+    directory: "/" # Raíz del proyecto
+    schedule:
+      interval: "weekly" # Revisa actualizaciones cada semana
+    open-pull-requests-limit: 5 # Máximo de PRs abiertos a la vez
+
+  # Opcional: Configuración para actualizar las Actions de GitHub que usas
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
