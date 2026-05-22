@@ -5,3 +5,4 @@
 - Consigue los bloques rojos para aumentar tu tamaño 
 - Evita chocarte con tu propio cuerpo
 - ¡Sobrevive lo más que puedas!
+- Texto agregado desde main
